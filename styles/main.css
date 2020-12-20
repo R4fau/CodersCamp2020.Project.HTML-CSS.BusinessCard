@@ -1,13 +1,25 @@
+* {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
 body {
-    background-color: red;
-    color: #FFFF00;
+    background-color: deepskyblue;
 }
-h1 {
-    font-size: 26px;
+
+.page-header {
+    height: 50px;
+    width: 100%;
+    background-color: crimson;
 }
-.aboutme {
-    max-width: 50%;
-    text-align: center;
-    background-color: green;
-    font-family: 'Arial Narrow';
+
+.col-4 {    
+    height: 150px;
+    width: 33.33%;
+    background-color: lightgreen;
+}
+footer {
+    height: 50px;
+    width: 100%;
+    background-color:hotpink;
 }
