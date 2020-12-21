@@ -7,19 +7,35 @@ body {
     background-color: deepskyblue;
 }
 
+
 .page-header {
-    height: 50px;
+    height: 150px;
     width: 100%;
     background-color: crimson;
 }
-
-.col-4 {    
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.col-4 {
+    flex-direction: row;    
     height: 150px;
-    width: 33.33%;
+    width: 25%;
     background-color: lightgreen;
 }
+.sidebar-right {
+    height: 300px;
+    width: 33.33%;
+    background-color:khaki;
+}
+.col-8 {
+    height: 300px;
+    width: 66.66%;
+    background-color: purple;
+}
 footer {
-    height: 50px;
+    height: 150px;
     width: 100%;
     background-color:hotpink;
 }
