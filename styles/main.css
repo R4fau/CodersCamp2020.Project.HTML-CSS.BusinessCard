@@ -19,18 +19,18 @@ body {
     justify-content: flex-end;
 }
 .col-4 {
-    flex-direction: row;    
     height: 150px;
     width: 25%;
     background-color: lightgreen;
 }
-.sidebar-right {
+.sidebar-left {
+    flex-direction: column;
     height: 300px;
     width: 33.33%;
     background-color:khaki;
 }
 .col-8 {
-    height: 300px;
+    height: 620px;
     width: 66.66%;
     background-color: purple;
 }
