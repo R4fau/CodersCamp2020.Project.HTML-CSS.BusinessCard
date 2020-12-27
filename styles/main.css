@@ -9,23 +9,27 @@ body {
 
 
 .page-header {
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: crimson;
 }
 .grid {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
-.col-4 {
+
+.col-3 {
+    display: flex;
+    flex-direction: row;
     height: 150px;
     width: 25%;
     background-color: lightgreen;
 }
-.sidebar-left {
+.col-4 {
+    display: flex;
     flex-direction: column;
-    height: 300px;
+}
+.sidebar-left {
     width: 33.33%;
     background-color:khaki;
 }
@@ -38,4 +42,15 @@ footer {
     height: 150px;
     width: 100%;
     background-color:hotpink;
+}
+.sidebar-left {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    background-color:khaki;
+}
+    
+.test {
+    width:100%;
+    height: 200px;
 }
