@@ -7,7 +7,10 @@ body {
     background-color: deepskyblue;
 }
 
-
+.subpage-title {
+    height: 100%;
+    width: 100%;
+}
 .page-header {
     height: 100px;
     width: 100%;
@@ -29,10 +32,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.sidebar-left {
-    width: 33.33%;
-    background-color:khaki;
-}
+
 .col-8 {
     height: 620px;
     width: 66.66%;
@@ -47,10 +47,21 @@ footer {
     display: flex;
     flex-direction: column;
     width: 33.33%;
+    height: 620px;
     background-color:khaki;
 }
     
 .test {
     width:100%;
     height: 200px;
+}
+
+img {
+    width: 100%;
+    max-height: 620px;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
 }
