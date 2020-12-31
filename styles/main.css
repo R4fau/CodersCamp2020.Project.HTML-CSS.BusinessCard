@@ -28,6 +28,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
+    animation: fontbulger infinite 5s;
 }
 .paragraph {
     font-family: Arial, Helvetica, sans-serif;
@@ -125,3 +126,18 @@ img {
       }
       i{ margin-right: 2rem}
     }
+
+@keyframes fontbulger {
+        0% {
+          font-size: 20px;
+          color: crimson
+        }
+        30% {
+          font-size: 30px;
+          color: darkorange;
+        }
+        100% {
+          font-size: 25px;
+          color:deeppink;
+        }
+      }
