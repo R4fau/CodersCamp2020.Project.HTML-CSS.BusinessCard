@@ -110,3 +110,18 @@ img {
     height: 100%;
     width: 100%;
 }
+
+@media(max-width:800px){
+
+    .grid{
+        flex-direction:column;
+    }
+    
+        .col-3 {
+            width:100%;
+            }
+      .card{
+          padding: 3rem;
+      }
+      i{ margin-right: 2rem}
+    }
