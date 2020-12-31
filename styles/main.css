@@ -1,16 +1,31 @@
 
-body {
+* {
+    font-family: Helvetica, sans-serif;
+}
+body {    
     background-color: deepskyblue;
 }
 
 .subpage-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:large;
+    font-family: Helvetica, sans-serif;
+    font-size:3em;
+    color:  black;
+    text-decoration: none;    
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+.subpage-title:hover {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+    color:  red;
+    font-variant: normal;     
+    text-align: center;
     height: 100%;
     width: 100%;
 }
 #my_name {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
 }
@@ -26,7 +41,7 @@ body {
     text-align: left;
 }
 .page-header {
-    height: 100px;
+    height:fit-content;
     width: 100%;
     background-color: crimson;
 }
@@ -42,7 +57,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 150px;
-    width: 25%;
+    width: 33.33333333333%;
     background-color: lightgreen;
 }
 .col-4 {
@@ -51,9 +66,15 @@ body {
 }
 
 .col-8 {
-    height: 700px;
+    height: auto;
     width: 66.66%;
-    background-color: purple;
+    background-color: rgb(245, 186, 245);
+    
+}
+
+.form {
+    padding-left: 20px;
+    font-size: 1em;
 }
 footer {
     height: 150px;
@@ -76,6 +97,13 @@ footer {
 img {
     width: 100%;
     max-height: 700px;
+}
+
+.gallery_picture {
+    display: inline-flex;
+    flex-direction: row;
+    width: 33%;
+    flex-wrap: wrap;
 }
 
 .card {

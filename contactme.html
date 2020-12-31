@@ -11,59 +11,71 @@
     <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
+<body>
 <div class="page">
     <header class="page-header"><a href=./index.html>Back to main page</a></header>
     <main class="page-content">
-        <section class="grid">
-            <div class="col-3">
-                <div class="card">
+            <section class="grid">
+                <div class="col-3">
+                    <div class="card">
+                        <a href ="./aboutme.html" class="subpage-title">
+                            <i class="fa fa-id-card" aria-hidden="true"></i>About me
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
+                <div class="col-3">
+                    <div class="card">
+                        <a href ="./gallery.html" class="subpage-title">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>Gallery
+                        </a>                        
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
+                <div class="col-3">
+                    <div class="card">
+                        <a href ="./contactme.html" class="subpage-title">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>Contact me
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                </div>
-            </div>
-        </section>           
+            </section>           
         <section class="grid">
             <section class="col-4 sidebar-left">
                 <img src="./images/contactme.jpg">
             </section>
-            <article class="col-8">
+            <article class="col-8 form">
                 <form>
                     <div>
                         <h1>Your name:</h1>
                         <input type="text" name="username"/>
+                        <br>
                     </div>
                     <div>
                         <h1>How can I serve you?</h1>
                         <input type="checkbox" id="beer" name="service"/>
-                        <label for="beer">Brew me some beer please!</label>
+                        <label for="beer">Brew me some beer please!</label><br>
                         <input type="checkbox" id="phone" name="service"/>
-                        <label for="phone">My phone is dead, please help!</label>
+                        <label for="phone">My phone is dead, please help!</label><br>
                          <input type="checkbox" id="portrait" name="service"/>
                         <label for="portrait">Could you draw my portrait?</label>
                     </div>
                     <div>
                         <p>How do you wish to be contacted?</p>
                         <div>
-                          <input type="radio" id="contactChoice1"
+                          <input type="radio" id="contact1"
                            name="contact" value="email">
-                          <label for="contactChoice1">By email</label>
-                          <input type="radio" id="contactChoice2"
+                          <label for="contact1">By email</label>
+                          <input type="radio" id="contact2"
                            name="contact" value="phone">
-                          <label for="contactChoice2">Phone me</label>                      
-                          <input type="radio" id="contactChoice3"
+                          <label for="contact2">Phone me</label>                      
+                          <input type="radio" id="contact3"
                            name="contact" value="visit">
-                          <label for="contactChoice3">Visit me ;)</label>
+                          <label for="contact3">Visit me ;)</label>
                         </div>
+                        <br>
+                        <h1>Your contact details:</h1>
+                        <input type="text" name="details"/>
+                        <br>
+                        <br>
                         <div>
                           <button type="submit">Submit</button>
                         </div>
@@ -76,6 +88,5 @@
     <footer>
     </footer>
 </div>
-
 </body>
 </html>
