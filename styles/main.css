@@ -1,15 +1,29 @@
-* {
-    border: 5px;
-    border-style: solid;
-    border-color: black;
-}
+
 body {
     background-color: deepskyblue;
 }
 
 .subpage-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
     height: 100%;
     width: 100%;
+}
+#my_name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.chapter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
 }
 .page-header {
     height: 100px;
@@ -22,6 +36,9 @@ body {
 }
 
 .col-3 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
     display: flex;
     flex-direction: row;
     height: 150px;
@@ -34,7 +51,7 @@ body {
 }
 
 .col-8 {
-    height: 620px;
+    height: 700px;
     width: 66.66%;
     background-color: purple;
 }
@@ -47,7 +64,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 33.33%;
-    height: 620px;
+    height: auto;
     background-color:khaki;
 }
     
@@ -58,7 +75,7 @@ footer {
 
 img {
     width: 100%;
-    max-height: 620px;
+    max-height: 700px;
 }
 
 .card {
