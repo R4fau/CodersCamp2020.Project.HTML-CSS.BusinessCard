@@ -3,7 +3,10 @@
     font-family: Helvetica, sans-serif;
 }
 body {    
-    background-color: deepskyblue;
+    background-color: #C9CBA3;
+    max-width: 1640px;
+    position: center;
+    margin: auto;
 }
 
 .subpage-title {
@@ -11,26 +14,33 @@ body {
     font-size:3em;
     color:  black;
     text-decoration: none;    
-    text-align: right;
     height: 100%;
-    width: 100%;
+    width: 100%;    
+    position: relative;              
+    top: 33%;
 }
 .subpage-title:hover {
     font-family: Helvetica, sans-serif;
     font-size: 4em;
-    color:  red;
+    color:  #E0Afa0;
     font-variant: normal;     
-    text-align: center;
     height: 100%;
     width: 100%;
+    position: relative;              
+    top: 20%;
 }
 #my_name {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
+    margin: 0px; 
+    padding: 20px;
+    height: 30px;
     animation: fontbulger infinite 5s;
 }
 .paragraph {
+    position: relative;
+    left:30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-justify: auto;
@@ -44,7 +54,7 @@ body {
 .page-header {
     height:fit-content;
     width: 100%;
-    background-color: crimson;
+    background-color: #FFE1a8;
 }
 .grid {
     display: flex;
@@ -57,9 +67,10 @@ body {
     border-color: black;
     display: flex;
     flex-direction: row;
-    height: 150px;
+    text-align: center;
+        height: 150px;
     width: 33.33333333333%;
-    background-color: lightgreen;
+    background-color: #E26D5e;
 }
 .col-4 {
     display: flex;
@@ -69,7 +80,7 @@ body {
 .col-8 {
     height: auto;
     width: 66.66%;
-    background-color: rgb(245, 186, 245);
+    background-color: #C9CBA3;
     
 }
 
@@ -78,9 +89,9 @@ body {
     font-size: 1em;
 }
 footer {
-    height: 150px;
+    height: 100px;
     width: 100%;
-    background-color:hotpink;
+    background-color:#723d46;
 }
 .sidebar-left {
     display: flex;
